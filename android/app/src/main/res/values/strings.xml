@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Slate</string>
+    <string name="search">Search</string>
+    <string name="not_available">Not available</string>
+    <string name="not_available_message">This app isn\'t part of your Slate setup.</string>
+    <string name="ok">OK</string>
+    <string name="dev_mode_banner">Dev mode — not device owner</string>
+    <string name="opening_app">Opening %1$s</string>
+    <string name="no_apps">No allowlisted apps installed on this device.</string>
+</resources>
