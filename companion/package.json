@@ -1,0 +1,19 @@
+{
+  "name": "slate-companion",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Desktop companion for installing and provisioning Slate on your phone",
+  "scripts": {
+    "dev": "concurrently -n bridge,web -c blue,green \"npm run dev -w bridge\" \"npm run dev -w web\"",
+    "build": "npm run build -w web && npm run build -w bridge",
+    "start": "npm run start -w bridge",
+    "typecheck": "npm run typecheck -w bridge && npm run typecheck -w web"
+  },
+  "workspaces": [
+    "bridge",
+    "web"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
